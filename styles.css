@@ -247,23 +247,23 @@ color: green;
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .body {background: rgb(54, 53, 53);font-size: x-small;}
+    .body {font-size: small;}
 
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    .example {background:rgb(54, 53, 53);font-size: x-small;}
+    .example {font-size: x-small;}
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .body { font-size: xx-small;}
+    .body { font-size:larger;}
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    .body {background:rgb(54, 53, 53) ;}
+    .body {}
 
     .comliment{
         font-size: small;

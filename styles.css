@@ -4,6 +4,7 @@
     padding: 3%;
     text-decoration: solid;
     color: white;
+    background-color: green;
 }
 
 .body{
@@ -15,6 +16,11 @@
 }
 .s1{
     color: white;
+}
+.image1{
+
+    width: 80%;
+    height: 80%;
 }
 .b1{
     padding:3%;

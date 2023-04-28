@@ -1,0 +1,299 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    text-decoration: solid;
+    color: white;
+}
+
+.body{
+    background-image: url(/images/bk.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.s1{
+    color: white;
+}
+.b1{
+    padding:3%;
+    border-radius: 5%;
+    background-color:green;
+    text-decoration: solid;
+    color:black;
+}
+
+.b2{
+    border: 0px;
+    border-color: green;
+    background-color: black;
+    text-decoration: none;
+    color: green;
+}
+
+.pp1{
+    color: blue;
+}
+.pp2{
+    color: green;
+}
+.s1{
+    display: flex;
+
+}
+.green{
+    margin-top: 4%;
+    background-color: rgb(83, 128, 0);
+    text-decoration: solid;
+    color: black;
+    border-radius:5%;
+    border: solid;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(54, 55, 56);
+    border-radius:5%;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    margin-left: 15%;
+    
+}
+.o1{
+    color: green;
+}
+.o2{
+    color: red;
+}
+.t1{
+    display: flex;
+    justify-content: space-between;
+}
+.t2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    gap: 3%;
+    margin-top:15%;
+}
+.main1{
+    display: block;
+    gap: 2%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.main2{
+    display: flex;
+    gap: 3%;
+    margin-left: 10%;
+}
+.main3{
+    display: flex;
+    gap: 3%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.p3{
+    color: green;
+}
+.m1{
+    box-sizing: border-box;
+    background-color: rgb(54, 53, 53);
+    border-radius: 5%;
+    border: 1px;
+    margin-top: 5%;
+    text-decoration: none;
+    color: white;
+    
+}
+.m2{
+    box-sizing: border-box;
+    background-color: rgb(54, 53, 53);
+    border-radius: 5%;
+    border: 1px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+}
+.m4{
+    color: white;
+}
+
+
+.m3{
+    box-sizing: border-box;
+    background-color: rgb(54, 53, 53);
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    margin-top: 5%;
+    height: 40%;
+
+}
+.m5{
+    color: white;
+}
+.m6{
+    box-sizing: border-box;
+    background-color: plum;
+    border-radius: 5%;
+    border: 1px;
+    margin-top: 3%;
+    padding: 15%;
+}
+
+.m7{
+    box-sizing: border-box;
+    background-color:skyblue;
+    border-radius: 5%;
+    border: 1px;
+    margin-top: 25%;
+    padding: 15%;
+}
+.mmm{
+    display: flex;
+    gap: 5%;
+}
+
+.image1{
+    width: 80%;
+    height: 60%;
+}
+.image2{
+    width: 80%;
+    height: 70%;
+}
+.two{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.comliment{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.bbb{
+    color: white;
+}
+.com1{
+    display: flex;
+    color: white;
+    gap: 2%;
+}
+.div1{
+    display: flex;
+}
+.me{
+    color: green;
+}
+.Smart{
+    color: white;
+}
+.port{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    gap: 10%;
+}
+
+#con4{
+    padding: 5%;
+    color: orange;
+    width: 20%;
+
+}
+#con5{
+    padding: 5%;
+    color: green;
+    width: 20%;
+
+}
+
+#con6{
+    padding: 5%;
+    color:purple;
+    width: 20%;
+
+}
+.end{
+    border: 1px;
+    background-color: rgb(46, 45, 45);
+    margin-top: 5%;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 25%;
+    margin-right: 10%;
+
+}
+.vim{
+color: green;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .body {font-size: x-small;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .body {background: rgb(54, 53, 53);font-size: x-small;}
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background:rgb(54, 53, 53);font-size: x-small;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .body { font-size: xx-small;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .body {background:rgb(54, 53, 53) ;}
+
+    .comliment{
+        font-size: small;
+        max-width: fit-content;
+        display: grid;
+    }
+    .com1{
+        max-width: fit-content;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
